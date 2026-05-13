@@ -2,6 +2,21 @@
 
 VetBridge AI is a working prototype of an AI-assisted career transition tool designed to help veterans translate military experience into civilian resume language.
 
+## Live Demo
+
+View the live project here:
+https://avanderveur.github.io/vetbridge-ai/
+
+## Screenshots
+
+### Homepage
+
+![VetBridge AI Homepage](topsection.png)
+
+### Generated Results
+
+![VetBridge AI Results](fullpage.png)
+
 ## Project Purpose
 
 Many veterans have valuable military experience, but civilian employers may not always understand military job titles, duties, or accomplishments. Veterans may also struggle to explain their experience in a way that matches civilian resumes, job applications, and interviews.
@@ -40,6 +55,7 @@ The tool then generates:
 - HTML
 - CSS
 - JavaScript
+- GitHub Pages
 
 ## Skills Demonstrated
 
@@ -53,6 +69,8 @@ This project demonstrates:
 - AI-assisted project planning
 - Veteran career transition support
 - Problem-solving
+- Project documentation
+- GitHub project deployment
 
 ## Project Status
 
@@ -75,4 +93,3 @@ Future versions of this project could include:
 - Downloadable resume language
 - More military role examples
 - Accessibility improvements
-- GitHub Pages deployment
