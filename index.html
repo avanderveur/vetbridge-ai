@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VetBridge AI</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="hero-section">
+    <div class="hero-content">
+      <p class="project-label">AI Career Transition Tool</p>
+
+      <h1>VetBridge AI</h1>
+
+      <p class="subtitle">
+        Helping veterans translate military experience into civilian career language.
+      </p>
+
+      <p class="hero-description">
+        VetBridge AI is a simple career support tool that helps veterans turn military duties,
+        leadership experience, and accomplishments into resume bullets, job search keywords,
+        transferable skills, and interview talking points.
+      </p>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="intro-section">
+      <h2>What This Tool Does</h2>
+
+      <p>
+        Many veterans have valuable experience, but civilian employers may not always understand
+        military job titles, duties, or accomplishments. This tool helps translate that experience
+        into clear, professional language that can be used for resumes, cover letters, job searches,
+        and interviews.
+      </p>
+    </section>
+
+    <section class="tool-section">
+
+      <div class="form-card">
+        <h2>Enter Your Military Experience</h2>
+
+        <p class="section-note">
+          Fill out the form below. Then click the button to generate civilian career language.
+        </p>
+
+        <form id="careerForm">
+
+          <label for="branch">Branch</label>
+          <input type="text" id="branch" placeholder="Example: Marine Corps">
+
+          <label for="militaryRole">Military Role or MOS</label>
+          <input type="text" id="militaryRole" placeholder="Example: Administrative Specialist">
+
+          <label for="yearsServed">Years of Service</label>
+          <input type="text" id="yearsServed" placeholder="Example: 4 years">
+
+          <label for="mainDuties">Main Duties</label>
+          <textarea id="mainDuties" placeholder="Example: Managed records, supported leadership, prepared reports, trained junior Marines"></textarea>
+
+          <label for="leadershipExperience">Leadership Experience</label>
+          <textarea id="leadershipExperience" placeholder="Example: Trained new team members, maintained accountability, supported daily operations"></textarea>
+
+          <label for="targetJob">Target Civilian Job</label>
+          <input type="text" id="targetJob" placeholder="Example: Office Coordinator">
+
+          <button type="button" id="generateButton">
+            Translate My Experience
+          </button>
+
+        </form>
+      </div>
+
+      <div class="results-card">
+        <h2>Generated Career Language</h2>
+
+        <p class="section-note">
+          Your results will appear below after you click the button.
+        </p>
+
+        <div class="result-box">
+          <h3>Transferable Skills</h3>
+          <ul id="skillsOutput">
+            <li>Results will appear here.</li>
+          </ul>
+        </div>
+
+        <div class="result-box">
+          <h3>Resume Bullet Points</h3>
+          <ul id="resumeOutput">
+            <li>Results will appear here.</li>
+          </ul>
+        </div>
+
+        <div class="result-box">
+          <h3>Job Search Keywords</h3>
+          <ul id="keywordsOutput">
+            <li>Results will appear here.</li>
+          </ul>
+        </div>
+
+        <div class="result-box">
+          <h3>Interview Talking Point</h3>
+          <p id="interviewOutput">
+            Results will appear here.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="project-purpose-section">
+      <h2>Project Purpose</h2>
+
+      <p>
+        This project was created to support veterans who may struggle to explain the value of their
+        military experience to civilian employers. It demonstrates AI-assisted problem-solving,
+        user-centered design, career support, resume development, and practical technology for
+        veteran career transitions.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>VetBridge AI | Built as an AI career transition project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
